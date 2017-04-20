@@ -16,9 +16,10 @@ public class FibonacciCalculator {
         int number = 11;
      
         System.out.println("Fibonacci series up to " + number +" numbers: ");
+        //changes again
         for(int i=1; i<=number; i++){
-        	//System.out.print(fibonacci(i) +", ");
-        	System.out.print(fibonacci2(i) +", ");
+        	System.out.print(fibonacci(i) +", ");
+        	//System.out.print(fibonacci2(i) +", ");
             
         }  
         
